@@ -1,0 +1,47 @@
+<template>
+  <div class="footerContainer">
+    <h2 class="footerTitle">Magali Mira</h2>
+    <div class="iconContainer">
+      <a href="https://www.instagram.com/magali.m.i.r.a/" target="_blank">
+        <img class="icon" src="../assets/instaIcon.svg" alt="" />
+      </a>
+      <a href="" target="_blank">
+        <img class="icon" src="../assets/fbIcon.svg" alt="" />
+      </a>
+      <a href="/contact" target="_blank">
+        <img class="icon" src="../assets/mailIcon.svg" alt="" />
+      </a>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.footerContainer {
+  margin: 3% 10%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerTitle {
+  font-size: 28px;
+  font-family: cursive;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  width: 35px;
+  margin: 0 10px;
+}
+</style>
