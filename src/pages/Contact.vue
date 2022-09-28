@@ -21,7 +21,7 @@ export default {};
 
 .pageTitle {
   margin: 7% auto 4% auto;
-  font: 20px cursive;
+  font: 20px sans-serif;
 }
 
 .link {
