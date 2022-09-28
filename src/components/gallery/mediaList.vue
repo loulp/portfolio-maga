@@ -85,4 +85,15 @@ export default {
 .zoomMedia {
   height: 90vh;
 }
+
+@media screen and (max-width: 660px) {
+  .grid {
+    grid-template-columns: 90%;
+  }
+
+  .zoomMedia {
+    height: auto;
+    width: 95%;
+  }
+}
 </style>

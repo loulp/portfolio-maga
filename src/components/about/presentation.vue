@@ -52,4 +52,24 @@ export default {};
   text-align: justify;
   font: 18px sans-serif;
 }
+
+@media screen and (max-width: 660px) {
+  .presentationContainer {
+   flex-direction: column; 
+  }
+
+  .media {
+    height: auto;
+    width: 80%;
+    margin: 7%;
+  }
+
+  .textContainer {
+    width: 90%;
+  }
+
+  .presentationTitle {
+    font-size: 24px;
+  }
+}
 </style>

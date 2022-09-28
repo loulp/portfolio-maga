@@ -1,12 +1,15 @@
 <template>
   <div class="headerContainer">
-    <h1 class="title">Magalie Mira</h1>
+    <img class="title" src="../assets/mmGif.gif" />
     <div class="navigationContainer">
       <router-link class="navigationItem" :to="{ name: 'gallery' }"
         >GALERIE</router-link
       >
       <router-link class="navigationItem" :to="{ name: 'about' }"
-        >A PROPOS</router-link
+        >ABOUT</router-link
+      >
+      <router-link class="navigationItem" :to="{ name: 'shop' }"
+        >SHOP</router-link
       >
       <router-link class="navigationItem" :to="{ name: 'contact' }"
         >CONTACT</router-link
@@ -23,11 +26,11 @@ export default {};
 .headerContainer {
   margin: 3% 0;
 }
+
 .title {
-  width: 100%;
-  text-align: center;
-  margin: 4% auto;
-  font-family: cursive;
+  width: 22%;
+  display: block;
+  margin: 3% auto;
 }
 
 .navigationContainer {
@@ -37,16 +40,30 @@ export default {};
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 
 .navigationItem {
   color: black;
-  font: bold 20px sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .navigationContainer :hover {
   text-decoration: underline;
 }
-</style>>
+
+@media screen and (max-width: 660px) {
+  .title {
+    width: 50%;
+    margin-top: 7%;
+  }
+
+  .navigationContainer {
+    width: 100%;
+    margin: 7% auto;
+  }
+}
+</style>

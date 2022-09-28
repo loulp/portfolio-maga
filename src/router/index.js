@@ -11,15 +11,15 @@ const routes = [
     component: () => import('@/pages/Gallery'),
   },
   {
-    path: '/a-propos',
+    path: '/about',
     name: 'about',
     component: () => import('@/pages/About'),
   },
-  // {
-  //   path: '/contact',
-  //   name: 'contact',
-  //   component: () => import('@/pages/Contact'),
-  // },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('@/pages/Contact'),
+  },
 ];
 
 const router = new VueRouter({

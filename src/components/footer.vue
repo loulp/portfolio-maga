@@ -3,12 +3,13 @@
     <h2 class="footerTitle">Magali Mira</h2>
     <div class="iconContainer">
       <a href="https://www.instagram.com/magali.m.i.r.a/" target="_blank">
-        <img class="icon" src="../assets/instaIcon.svg" alt="" />
+        <img class="icon insta" src="../assets/instaIcon.svg" alt="" />
       </a>
       <a href="" target="_blank">
         <img class="icon" src="../assets/fbIcon.svg" alt="" />
       </a>
-      <a href="/contact" target="_blank">
+
+      <a href="mailto:hello.magalimira@gmail.com">
         <img class="icon" src="../assets/mailIcon.svg" alt="" />
       </a>
     </div>
@@ -21,7 +22,7 @@ export default {};
 
 <style scoped>
 .footerContainer {
-  margin: 3% 10%;
+  margin: 2% 10%;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -43,5 +44,19 @@ export default {};
 .icon {
   width: 35px;
   margin: 0 10px;
+}
+
+.insta {
+  width: 45px;
+}
+
+@media screen and (max-width: 660px) {
+  .footerContainer {
+    margin-top: 7%;
+  }
+
+  .footerTitle {
+    font-size: 22px;
+  }
 }
 </style>

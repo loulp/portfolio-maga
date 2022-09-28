@@ -1,7 +1,7 @@
 <template>
   <div class="aboutMainContainer">
     <presentation />
-    <sale-point />
+    <!-- <sale-point /> -->
   </div>
 </template>
 
