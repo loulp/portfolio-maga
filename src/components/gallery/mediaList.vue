@@ -10,7 +10,7 @@
         @click="zoomOnImg(item)"
       />
     </div>
-    <cld-image public-id="cld-sample-5" />
+    <!-- <cld-image public-id="cld-sample-5" /> -->
     <div id="zoomContainer" v-if="isZooming" @click="isZooming = !isZooming">
       <img
         class="zoomMedia"
