@@ -32,7 +32,7 @@ export default {};
 
 .footerTitle {
   font-size: 28px;
-  font-family: cursive;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .iconContainer {

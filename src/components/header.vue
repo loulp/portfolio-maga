@@ -34,7 +34,7 @@ export default {};
 }
 
 .navigationContainer {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -47,7 +47,6 @@ export default {};
   color: black;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 24px;
-  font-weight: bold;
   text-decoration: none;
 }
 
