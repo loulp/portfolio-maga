@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Footer from './components/footer.vue';
+import Footer from "./components/footer.vue";
 import Header from "./components/header.vue";
 export default {
   components: { Header, Footer },
@@ -19,5 +19,6 @@ export default {
 body,
 html {
   margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
 }
 </style>

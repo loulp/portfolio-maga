@@ -21,13 +21,14 @@ export default {};
 
 .pageTitle {
   margin: 7% auto 4% auto;
-  font: 20px sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .link {
   color: black;
 
-  font: bold 18px cursive;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 660px) {

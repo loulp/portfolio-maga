@@ -9,7 +9,7 @@
         >ABOUT</router-link
       >
       <router-link class="navigationItem" :to="{ name: 'shop' }"
-        >SHOP</router-link
+        >&nbsp;SHOP</router-link
       >
       <router-link class="navigationItem" :to="{ name: 'contact' }"
         >CONTACT</router-link

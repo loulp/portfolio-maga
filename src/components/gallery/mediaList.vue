@@ -5,20 +5,18 @@
         v-for="item in getList"
         :key="item"
         class="gridItem"
-        :src="require('@/assets/ex' + item + '.jpg')"
+        :src="require('@/assets/illu/ex' + item + '.jpg')"
         alt=""
         @click="zoomOnImg(item)"
       />
     </div>
-    <!-- <cld-image public-id="cld-sample-5" /> -->
     <div id="zoomContainer" v-if="isZooming" @click="isZooming = !isZooming">
       <img
         class="zoomMedia"
-        :src="require('@/assets/ex' + zoomImg + '.jpg')"
+        :src="require('@/assets/illu/ex' + zoomImg + '.jpg')"
         alt=""
       />
     </div>
-    
   </div>
 </template>
 
@@ -67,6 +65,7 @@ export default {
 .gridItem {
   width: 95%;
   cursor: pointer;
+  justify-self: center;
 }
 
 #zoomContainer {
