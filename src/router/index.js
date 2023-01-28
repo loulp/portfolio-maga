@@ -20,6 +20,11 @@ const routes = [
     name: 'contact',
     component: () => import('@/pages/Contact'),
   },
+  {
+    path: '/illustration/:imgTitle',
+    name: 'illustration',
+    component: () => import('@/pages/Illustration'),
+  },
 ];
 
 const router = new VueRouter({

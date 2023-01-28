@@ -1,6 +1,7 @@
 <template>
   <div class="footerContainer">
-    <h2 class="footerTitle">Magali Mira</h2>
+    <img class="footerGIF" src="../assets/mmGif.gif" alt="" />
+    <!-- <h2 class="footerTitle">Magali Mira</h2> -->
     <div class="iconContainer">
       <a href="https://www.instagram.com/magali.m.i.r.a/" target="_blank">
         <img class="icon insta" src="../assets/instaIcon.svg" alt="" />
@@ -28,6 +29,10 @@ export default {};
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.footerGIF {
+  width: 20%;
 }
 
 .footerTitle {

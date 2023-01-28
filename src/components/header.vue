@@ -8,8 +8,11 @@
       <router-link class="navigationItem" :to="{ name: 'about' }"
         >ABOUT</router-link
       >
-      <router-link class="navigationItem" :to="{ name: 'shop' }"
-        >&nbsp;SHOP</router-link
+      <a
+        class="navigationItem"
+        target="_blank"
+        href="https://magalimira.etsy.com"
+        >&nbsp;SHOP</a
       >
       <router-link class="navigationItem" :to="{ name: 'contact' }"
         >CONTACT</router-link

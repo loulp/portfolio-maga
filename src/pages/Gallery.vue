@@ -9,12 +9,6 @@ import mediaList from "../components/gallery/mediaList.vue";
 
 export default {
   components: { mediaList },
-
-  data() {
-    return {
-      mediaList: [],
-    };
-  },
 };
 </script>
 

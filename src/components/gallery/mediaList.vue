@@ -1,47 +1,48 @@
 <template>
   <div class="mediaListContainer">
     <div class="grid">
-      <img
-        v-for="item in getList"
-        :key="item"
+      <div
         class="gridItem"
-        :src="require('@/assets/illu/ex' + item + '.jpg')"
-        alt=""
-        @click="zoomOnImg(item)"
-      />
-    </div>
-    <div id="zoomContainer" v-if="isZooming" @click="isZooming = !isZooming">
-      <img
-        class="zoomMedia"
-        :src="require('@/assets/illu/ex' + zoomImg + '.jpg')"
-        alt=""
-      />
+        v-for="item in data"
+        :key="item.id"
+        @click="goTo(item.titre)"
+      >
+        <img
+          class="gridItemImg"
+          :src="require(`@/assets/bdd/${item.url}`)"
+          alt=""
+          loading="lazy"
+        />
+        <div class="hoverDiv">
+          <span>{{ item.titre }}</span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import json from "@/bdd.json";
+
 export default {
   data() {
     return {
-      isZooming: false,
-      zoomImg: null,
+      data: null,
     };
   },
-  computed: {
-    getList() {
-      const list = [];
-      for (let i = 1; i < 9; i++) {
-        list.push(i);
-      }
-      return list;
-    },
+
+  mounted() {
+    let mediaArray = json.data;
+    this.data = mediaArray.sort((a, b) => a.id - b.id);
   },
 
   methods: {
-    zoomOnImg(url) {
-      this.zoomImg = url;
-      this.isZooming = true;
+    goTo(title) {
+      title = title.replaceAll(" ", "_");
+      this.$router.push({
+        name: "illustration",
+        params: { imgTitle: title },
+      });
     },
   },
 };
@@ -66,35 +67,43 @@ export default {
   width: 95%;
   cursor: pointer;
   justify-self: center;
+  position: relative;
 }
 
-#zoomContainer {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.gridItemImg {
+  width: 100%;
+  position: relative;
+}
 
-  background-color: rgba(255, 255, 255, 0.7);
+.hoverDiv {
+  visibility: hidden;
   width: 100%;
   height: 100%;
+  transition: all ease-in-out 0.5s;
 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-color: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.zoomMedia {
-  height: 90vh;
+.hoverDiv span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gridItem:hover .hoverDiv {
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 660px) {
   .grid {
     grid-template-columns: 90%;
-  }
-
-  .zoomMedia {
-    height: auto;
-    width: 95%;
   }
 }
 </style>
