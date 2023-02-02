@@ -4,7 +4,6 @@
       <img class="media" src="../../assets/about.jpg" alt="" />
     </div>
     <div class="textContainer">
-      <h2 class="presentationTitle">About Me</h2>
       <p class="presentationText">Bonjour!</p>
 
       <p class="presentationText">
@@ -45,7 +44,7 @@ export default {};
 
 <style scoped>
 .presentationContainer {
-  margin: 5% 5% auto 5%;
+  margin: 3% 5% auto 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,11 +65,6 @@ export default {};
 .textContainer {
   margin-left: 2%;
   width: 48%;
-}
-
-.presentationTitle {
-  text-align: center;
-  font: bold 20px cursive;
 }
 
 .presentationText {

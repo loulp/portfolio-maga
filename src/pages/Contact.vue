@@ -1,7 +1,7 @@
 <template>
   <div class="contactContainer">
     <h2 class="pageTitle">
-      Pour toute demande de projet vous pouvez me contacter sur:
+      Pour toute demande de projet vous pouvez me contacter à
     </h2>
     <a class="link" href="mailto:hello.magalimira@gmail.com"
       >hello.magalimira@gmail.com</a

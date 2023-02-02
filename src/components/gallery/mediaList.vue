@@ -5,7 +5,7 @@
         class="gridItem"
         v-for="item in data"
         :key="item.id"
-        @click="goTo(item.titre)"
+        @click="goTo(item.id)"
       >
         <img
           class="gridItemImg"
@@ -37,11 +37,11 @@ export default {
   },
 
   methods: {
-    goTo(title) {
-      title = title.replaceAll(" ", "_");
+    goTo(id) {
+      // title = title.replaceAll(" ", "_");
       this.$router.push({
         name: "illustration",
-        params: { imgTitle: title },
+        params: { imgId: id },
       });
     },
   },

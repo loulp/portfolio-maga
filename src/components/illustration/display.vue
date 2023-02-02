@@ -30,9 +30,7 @@ export default {
   mounted() {
     let mediaArray = json.data;
 
-    this.illu = mediaArray.find(
-      (illu) => illu.titre === this.$route.params.imgTitle.replaceAll("_", " ")
-    );
+    this.illu = mediaArray.find((illu) => illu.id == this.$route.params.imgId);
 
     mediaArray.unshift(
       mediaArray.splice(
@@ -81,8 +79,13 @@ export default {
 }
 
 .media {
-  width: 80%;
+  /* width: 66%; */
+  height: 100vh;
   margin: 30px 0px;
+}
+
+.media:first-of-type {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 660px) {

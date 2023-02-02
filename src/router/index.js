@@ -21,7 +21,7 @@ const routes = [
     component: () => import('@/pages/Contact'),
   },
   {
-    path: '/illustration/:imgTitle',
+    path: '/illustration/:imgId',
     name: 'illustration',
     component: () => import('@/pages/Illustration'),
   },
