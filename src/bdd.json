@@ -2,98 +2,98 @@
   "data": [
     {
       "id": 1,
-      "rel_id": null,
+      "views": ["Rivière Li Mockup.png"],
       "titre": "Illustration",
       "description": "Illustration inspirée de la rivière Li en Chine\nGouache sur papier, format A4\nDes reproductions sont disponibles à la vente sur ma boutique en ligne",
       "url": "riverLi.jpg"
     },
     {
       "id": 2,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration / Livre",
       "description": "Illustration \"La cahute Haïtienne\", réalisée à l'encre de Chine pour le livre l'Arbre du Voyageur de Christophe Gallerand",
       "url": "maisonHaiti.jpg"
     },
     {
       "id": 3,
-      "rel_id": null,
+      "views": ["Feuilles mockup.png"],
       "titre": "Illustration",
       "description": "Illustration \"Aglaonema\"\nGouache sur papier, format A4\nDes reproductions sont disponibles à la vente sur ma boutique en ligne",
       "url": "Feuilles.jpg"
     },
     {
       "id": 4,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration / Livre",
       "description": "Illustration \"L'île aux cactus\", réalisée à l'encre de Chine pour le livre l'Arbre du Voyageur de Christophe Gallerand",
       "url": "Les cactus- Canaries C.jpg"
     },
     {
       "id": 5,
-      "rel_id": null,
+      "views": ["mural.jpg"],
       "titre": "Fresque murale",
       "description": "Réalisation d'une fresque murale inspirée par la jungle pour une chambre d'enfant",
       "url": "muralPlante.jpg"
     },
     {
       "id": 6,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration / Livre",
       "description": "Illustration \"La rose des sables\", réalisée à l'encre de Chine pour le livre l'Arbre du Voyageur de Christophe Gallerand",
       "url": "Les dromadaires -Maroc C.jpg"
     },
     {
       "id": 7,
-      "rel_id": null,
+      "views": ["couv livre.jpeg"],
       "titre": "Illustration/ Livre",
       "description": "Illustration \"La rose des sables\", réalisée à l'encre de Chine pour le livre l'Arbre du Voyageur de Christophe Gallerand",
       "url": "book.jpg"
     },
     {
       "id": 8,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration",
       "description": "Illustration \"Break\"\nGouache sur papier, format A4",
       "url": "Break.jpg"
     },
     {
       "id": 9,
-      "rel_id": null,
+      "views": ["mural autre.jpg"],
       "titre": "Fresque murale",
       "description": "Réalisation d'une fresque murale inspirée par la savane pour une chambre d'enfant",
       "url": "muralArbre.jpg"
     },
     {
       "id": 10,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration / Livre",
       "description": "Illustration \"La dame aux avocats\", réalisée à l'encre de Chine pour le livre l'Arbre du Voyageur de Christophe Gallerand",
       "url": "dameBolivie.jpeg"
     },
     {
       "id": 11,
-      "rel_id": null,
+      "views": ["Brume mockup.png"],
       "titre": "Illustration",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n Aenean nec malesuada tortor. Morbi dignissim odio vitae velit feugiat, at egestas dolor pharetra. Aenean porta, dolor eu sagittis porta, mi sem tincidunt nulla, in tincidunt erat magna a arcu.\n\n Praesent consectetur elit eu nisi interdum, et lacinia risus ultricies. Integer lorem ipsum, efficitur sit amet lacus. Ut ornare ac ex eu tincidunt. Curabitur vel est vitae ipsum sagittis dignissim eu eget dui.",
+      "description": "Illustration \"Brume\"\nGouache sur papier, format A4\nDes reproductions sont disponibles à la vente sur ma boutique en ligne",
       "url": "Brume.jpg"
     },
     {
       "id": 12,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration",
       "description": "Illustration \"Les fleurs bleues\"\nGouache sur papier, format A4",
       "url": "Les-fleurs-bleues.jpg"
     },
     {
       "id": 13,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration numérique",
       "description": " ",
       "url": "La_Serre_Aux_plantes.jpg"
     },
     {
       "id": 14,
-      "rel_id": null,
+      "views": [],
       "titre": "Illustration",
       "description": "Illustration \"Un regard\"\nGouache sur papier, format A4",
       "url": "regard.jpeg"

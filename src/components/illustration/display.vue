@@ -1,15 +1,20 @@
 <template>
-  <div class="displayContainer">
-    <div v-if="illu" class="descContainer">
+  <div v-if="illu" class="displayContainer">
+    <div class="descContainer">
       <h2>{{ illu.titre }}</h2>
       <p>{{ illu.description }}</p>
     </div>
-    <div v-if="illu" class="mediaContainer">
+    <div class="mediaContainer">
       <img
-        v-for="media in illuMedias"
-        :key="media.id"
         class="media"
-        :src="require(`@/assets/bdd/${media.url}`)"
+        :src="require(`@/assets/bdd/${illu.url}`)"
+        loading="lazy"
+      />
+      <img
+        v-for="(media, index) in illu.views"
+        :key="index"
+        class="media"
+        :src="require(`@/assets/bdd/rel/${media}`)"
         loading="lazy"
       />
     </div>
@@ -32,14 +37,13 @@ export default {
 
     this.illu = mediaArray.find((illu) => illu.id == this.$route.params.imgId);
 
-    mediaArray.unshift(
-      mediaArray.splice(
-        mediaArray.findIndex((illu) => illu.id === this.illu.id),
-        1
-      )[0]
-    );
-
-    this.illuMedias = mediaArray;
+    // mediaArray.unshift(
+    //   mediaArray.splice(
+    //     mediaArray.findIndex((illu) => illu.id === this.illu.id),
+    //     1
+    //   )[0]
+    // );
+    // this.illuMedias = mediaArray;
   },
 };
 </script>
