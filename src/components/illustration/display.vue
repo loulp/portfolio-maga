@@ -50,11 +50,8 @@ export default {
 
 <style>
 .displayContainer {
-  height: 100vh;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
-
   margin: 0 5%;
 }
 
@@ -67,24 +64,14 @@ export default {
 
 .mediaContainer {
   flex: 3;
-  height: 100vh;
 
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  overflow-x: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.mediaContainer::-webkit-scrollbar {
-  display: none;
 }
 
 .media {
-  /* width: 66%; */
-  height: 100vh;
+  width: 75%;
   margin: 30px 0px;
 }
 

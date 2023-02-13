@@ -54,7 +54,6 @@ export default {};
 .mediaContainer {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
 }
 
 .media {
@@ -63,7 +62,6 @@ export default {};
 }
 
 .textContainer {
-  margin-left: 2%;
   width: 48%;
 }
 
