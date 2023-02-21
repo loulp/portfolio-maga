@@ -53,25 +53,25 @@ export default {
   display: flex;
   flex-direction: row;
   margin: 0 5%;
+  gap: 10%
 }
 
 .descContainer {
-  flex: 2;
+  flex: 1;
   padding-top: 5%;
   font-size: 18px;
   white-space: pre-wrap;
 }
 
 .mediaContainer {
-  flex: 3;
-
+  flex: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .media {
-  width: 75%;
+  width: 100%;
   margin: 30px 0px;
 }
 

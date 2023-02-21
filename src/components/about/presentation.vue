@@ -49,20 +49,24 @@ export default {};
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  gap: 5%;
 }
 
 .mediaContainer {
+  flex: 2;
   display: flex;
   justify-content: center;
 }
 
 .media {
-  height: calc(100vh - 210px);
+  height: calc(100vh - 130px);
   width: auto;
+  margin: 0;
 }
 
 .textContainer {
-  width: 48%;
+  flex: 3;
+  margin-right: 5%;
 }
 
 .presentationText {

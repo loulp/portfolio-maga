@@ -30,7 +30,7 @@
     },
     {
       "id": 5,
-      "views": ["mural.jpg"],
+      "views": ["mural autre.jpg"],
       "titre": "Fresque murale",
       "description": "Réalisation d'une fresque murale inspirée par la jungle pour une chambre d'enfant",
       "url": "muralPlante.jpg"
@@ -58,7 +58,7 @@
     },
     {
       "id": 9,
-      "views": ["mural autre.jpg"],
+      "views": ["mural.jpg"],
       "titre": "Fresque murale",
       "description": "Réalisation d'une fresque murale inspirée par la savane pour une chambre d'enfant",
       "url": "muralArbre.jpg"
